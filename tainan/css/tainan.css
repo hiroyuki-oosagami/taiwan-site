@@ -1,0 +1,1038 @@
+@charset "utf-8";
+
+body {
+  font-family: "Zen Kaku Gothic New", serif;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background: url(../image/tainan_sp.jpg) no-repeat top center/cover;
+  width: 100%;
+  padding: 2.133vw;
+  position: relative;
+}
+
+h1 {
+  display: block;
+  margin: 20vw 23.46vw;
+}
+
+.top_tainan {
+  width: 53.06vw;
+}
+
+header p {
+  color: #fff;
+  font-size: 3.2vw;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.header_p {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.header_text {
+  width: 65.8vw;
+}
+
+.top_btn2 {
+  width: 25vw;
+  font-size: 3.5vw;
+  display: inline-block;
+  padding-top: 5px;
+}
+
+/* アニメーション */
+
+
+.fuwafuwa {
+  animation: anime1 1.5s ease 0s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes anime1 {
+  from {
+    transform: scale(0.9, 0.9);
+  }
+
+  to {
+    transform: scale(1, 1);
+  }
+}
+
+/*観光名所*/
+
+
+.attraction .hutozi {
+  font-size: 6.4vw;
+  font-weight: bold;
+  letter-spacing: 0.7em;
+  text-align: center;
+  margin-top: 5vw;
+}
+
+.attraction {
+  padding: 10.6vw;
+}
+
+.attraction h2 {
+  margin: 0 auto;
+}
+
+/* 主 画像 */
+.anpei_photo,
+.akagi_photo {
+  width: 78.6vw;
+  top: 25vw;
+  margin-top: 40px;
+}
+
+.attraction p {
+  width: 78.6vw;
+  background-color: rgba(100, 201, 155, 0.2);
+  padding: 4vw 2.5vh 4vw 2.5vh;
+  margin-top: 40px;
+  font-size: 3vw;
+  line-height: 1.6em;
+}
+
+/* サブ画像 */
+.anpei_sub_photo,
+.akagi_sub_photo {
+  width: 78.6vw;
+  margin-top: 40px;
+  display: flex;
+}
+
+/* サブ画像 */
+.anpei1,
+.akagi1 {
+  width: 37.3vw;
+}
+
+.anpei2,
+.akagi2 {
+  width: 37.3vw;
+  margin-left: 4vw;
+}
+
+.sen1 {
+  margin: 60px 0 60px 9.5vw;
+  width: 60vw;
+}
+
+.time {
+  font-size: 3vw;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.jikan {
+  font-weight: bold;
+}
+
+/*グルメ*/
+
+.gourmet h2 {
+  margin: 0 auto;
+  margin-bottom: 17vw;
+}
+
+.only_kaisetu {
+  margin: 60px auto 0;
+}
+
+/* 見出し */
+.text_box1 {
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.text_box2 {
+  width: 20%;
+  margin: 30px auto 0;
+  text-align: center;
+}
+
+.hosozi {
+  font-size: 6.2vw;
+  margin-top: 10.6vh;
+}
+
+.g_sub {
+  font-size: 2.6vw;
+  margin-top: 1.1vh;
+}
+
+/* メニュー説明 */
+.gourmet .mise {
+  width: 80vw;
+  margin: 30px 0 20px 10vw;
+}
+
+.gourmet_bun {
+  font-size: 2.5vw;
+  letter-spacing: 0.2em;
+  line-height: 1.6em;
+  width: 80vw;
+  margin-left: 11vw;
+  margin-bottom: 5vh;
+}
+
+/* ボタン */
+
+.waku {
+  font-size: 3vw;
+  width: 27vw;
+  height: 10vw;
+  padding: 13px 0 12px 15px;
+  margin-left: 63vw;
+  border: 1px solid #eda184;
+}
+
+.gourmet .sankaku {
+  font-size: 2.5vw;
+  color: #eda184;
+}
+
+.gourmet {
+  margin-bottom: 45px;
+}
+
+/* 癒しのスポット */
+
+.healing {
+  margin-top: 11vh;
+  margin-bottom: 11vw;
+}
+
+.healing h2 {
+  margin: 0 auto;
+  margin-bottom: 17vw;
+}
+
+h4 {
+  font-size: 6.2vw;
+  width: 26vw;
+  margin: 0 auto;
+  margin-top: 10vw;
+  margin-bottom: 8vw;
+}
+
+.healing img {
+  display: block;
+  width: 80vw;
+  top: 25vw;
+  margin: 0 auto
+}
+
+.healing .iyasi_bun {
+  width: 80vw;
+  margin: 37px 0 37px 8.5vw;
+  font-size: 3vw;
+  line-height: 1.5em;
+}
+
+
+/* ボーダルウィンドウ */
+
+/* button1 */
+
+/* 自作ダイアログ */
+#dialog1 {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border: none;
+  position: relative;
+  top: 593%;
+}
+
+#success1 {
+  width: 70%;
+  height: 50%;
+  margin: auto;
+  border: 1px solid #fff;
+  background: url(../image/men.jpg) no-repeat center/cover;
+  box-shadow: 5px 5px 8px #888;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container1 {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.btn1 {
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  border: none;
+  position: relative;
+}
+
+.btn1::before {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-top: 4px solid black;
+  top: 11px;
+  left: -16px;
+  transform: rotate(45deg);
+}
+
+.btn1::after {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-bottom: 4px solid black;
+  top: -17px;
+  left: -16px;
+  transform: rotate(-45deg);
+}
+
+/* button2 */
+
+/* 自作ダイアログ */
+#dialog2 {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border: none;
+  position: relative;
+  top: 682%;
+}
+
+#success2 {
+  width: 70%;
+  height: 50%;
+  margin: auto;
+  border: 1px solid #fff;
+  background: url(../image/ebi.jpg) no-repeat center/cover;
+  box-shadow: 5px 5px 8px #888;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container2 {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.btn2 {
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  border: none;
+  position: relative;
+}
+
+.btn2::before {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-top: 4px solid black;
+  top: 11px;
+  left: -16px;
+  transform: rotate(45deg);
+}
+
+.btn2::after {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-bottom: 4px solid black;
+  top: -17px;
+  left: -16px;
+  transform: rotate(-45deg);
+}
+
+
+/* button3 */
+
+/* 自作ダイアログ */
+#dialog3 {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border: none;
+  position: relative;
+  top: 755%;
+}
+
+#success3 {
+  width: 70%;
+  height: 50%;
+  margin: auto;
+  border: 1px solid #fff;
+  background: url(../image/shouron.jpg) no-repeat center/cover;
+  box-shadow: 5px 5px 8px #888;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container3 {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.btn3 {
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  border: none;
+  position: relative;
+}
+
+.btn3::before {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-top: 4px solid black;
+  top: 11px;
+  left: -16px;
+  transform: rotate(45deg);
+}
+
+.btn3::after {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-bottom: 4px solid black;
+  top: -17px;
+  left: -16px;
+  transform: rotate(-45deg);
+}
+
+
+/* button4 */
+
+/* 自作ダイアログ */
+#dialog4 {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border: none;
+  position: relative;
+  top: 838%;
+}
+
+#success4 {
+  width: 70%;
+  height: 50%;
+  margin: auto;
+  border: 1px solid #fff;
+  background: url(../image/yahron.jpg) no-repeat center/cover;
+  box-shadow: 5px 5px 8px #888;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container4 {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.btn4 {
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  border: none;
+  position: relative;
+}
+
+.btn4::before {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-top: 4px solid black;
+  top: 11px;
+  left: -16px;
+  transform: rotate(45deg);
+}
+
+.btn4::after {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-bottom: 4px solid black;
+  top: -17px;
+  left: -16px;
+  transform: rotate(-45deg);
+}
+
+/* Footer */
+.btn_box {
+  display: flex;
+  justify-content: end;
+  margin: 0 min(2.13vw, 8px) min(5.3vw, 20px);
+}
+
+.top_btn {
+  width: min(12.8vw, 48px);
+}
+
+footer {
+  background-color: #0180BE;
+}
+
+.footer_inner {
+  color: #fff;
+  text-align: center;
+}
+
+.footer_flag {
+  width: 8.53vw;
+  margin: 5.3vw;
+}
+
+.footer_list {
+  width: 53.6vw;
+  margin: 0 auto;
+  text-align-last: left;
+  font-size: 3.2vw;
+}
+
+.footer_list li {
+  padding: 2.13vw;
+  border-bottom: 1px solid#fff;
+}
+
+.list1 {
+  margin-bottom: 2vw;
+}
+
+.footer_logo {
+  display: none;
+}
+
+.sns_box {
+  margin-top: 6.4vw;
+}
+
+.facebook {
+  width: 10.1vw;
+}
+
+.instagram {
+  width: 8.53vw;
+  margin: 0 5.3vw;
+}
+
+.x {
+  width: 8vw;
+}
+
+.copyright {
+  padding: 5.3vw;
+  font-size: 2.6vw;
+}
+
+@media screen and (min-width:768px) {
+
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* ヘッダー */
+
+  header {
+    background: url(../image/tainan_pc.jpg) no-repeat top center/cover;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  header .top_tainan {
+    display: block;
+    width: 30vw;
+    height: 56vw;
+    margin: 0 62vw 0 16vw;
+  }
+
+  .header_text {
+    font-size: 1.5vw;
+    width: 42vw;
+  }
+
+  .top_btn2 {
+    font-size: 2vw;
+  }
+
+
+  /* 観光名所 */
+
+  .attraction {
+    padding: 5vw;
+  }
+
+  .attraction h2 {
+    margin: 0;
+    width: 71vw;
+  }
+
+  .attraction .hutozi {
+    text-align: left;
+    /* margin-left: 2vw; */
+    margin-top: 7.5vw;
+    font-size: 3vw;
+  }
+
+  .anpei_main,
+  .akagi_main {
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .anpei_photo,
+  .akagi_photo {
+    display: block;
+    width: 46vw;
+    height: 23vw;
+    margin: 0 2vw 0 0;
+  }
+
+  .anpei_main p,
+  .akagi_main p {
+    font-size: 1.4vw;
+    width: 38vw;
+    height: 24vw;
+    padding: 2vw 2vw;
+    margin: 0;
+  }
+
+  .anpei_sub,
+  .akagi_sub {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .anpei_sub_photo,
+  .akagi_sub_photo {
+    width: 41vw;
+    height: 17vw;
+    margin: 2.4vw 2.4vw 0 0;
+  }
+
+  .anpei1,
+  .akagi1 {
+    width: 21vw;
+  }
+
+  .anpei2,
+  .akagi2 {
+    width: 21vw;
+    margin-left: 1.5vw;
+  }
+
+  .anpei_sub p,
+  .akagi_sub p {
+    font-size: 1.4vw;
+    width: 35vw;
+    height: 7vw;
+    margin: 0;
+    padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+  }
+
+  .sen1 {
+    width: 33vw;
+    margin: 85px 0 20px 20vw;
+  }
+
+
+  /* グルメ */
+
+  .gourmet {
+    padding: 0 5vw 0 5vw;
+  }
+
+
+  /* タイトル */
+
+  .gourmet .title {
+    width: 68vw;
+    margin: 2vw 0 0 10vw;
+  }
+
+  .gourmet .title .text {
+    margin: 0 0 0 auto;
+  }
+
+  .gourmet .only_kaisetu .only_text {
+    font-size: 1.4vw;
+    width: 30vw;
+    padding: 2vw 0.5vw;
+  }
+
+  .gourmet .only_kaisetu {
+    width: 30vw;
+    margin: 65px 0 45px 47vw;
+  }
+
+  /* メニュー紹介 */
+
+  .gourmet .mise {
+    width: 35vw;
+    height: 16vw;
+    margin: 0 3vw 0 0;
+  }
+
+  .gourmet .hosozi {
+    font-size: 3vw;
+    width: 12vw;
+    margin: 0;
+  }
+
+  .gourmet .g_sub {
+    font-size: 2.2vw;
+    height: 2.4vw;
+    margin: 0;
+  }
+
+  .gourmet .men,
+  .gourmet .ebimesi,
+  .gourmet .tensin,
+  .gourmet .kamomesi {
+    width: 44vw;
+  }
+
+  .gourmet .text_box1,
+  .gourmet .text_box2 {
+    display: flex;
+    align-items: center;
+    width: 45vw;
+    height: 4vw;
+    margin: 0 0 1vw 0;
+  }
+
+  .gourmet_bun {
+    font-size: 1.4vw;
+    width: 35.5vw;
+    margin: 1vw 0 3vw;
+  }
+
+  .ebimesi .gourmet_bun {
+    margin: 1vw 0 3vw;
+  }
+
+  .gazo1,
+  .gazo2,
+  .gazo3,
+  .gazo4 {
+    font-size: 1.6vw;
+    margin: 0 0 0 1vw;
+  }
+
+  .gourmet .sankaku {
+    font-size: 2vw;
+  }
+
+  .waku {
+    font-size: 3vw;
+    width: 15vw;
+    height: 5vw;
+    padding: 3px 0 10px 15px;
+    margin-left: 19vw;
+    border: 1px solid #eda184;
+  }
+
+  .menu1,
+  .menu2 {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .men,
+  .ebimesi,
+  .tensin,
+  .kamomesi {
+    width: 70vw;
+    margin-top: 20px;
+  }
+
+  /* モーダルウィンドウ */
+
+  #dialog1 {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border: none;
+    position: relative;
+    top: 600%;
+  }
+
+  #success1 {
+    width: 35%;
+    height: 70%;
+    margin: auto;
+    border: 1px solid #fff;
+    background: url(../image/men.jpg) no-repeat center/cover;
+    box-shadow: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #dialog2 {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border: none;
+    position: relative;
+    top: 600%;
+  }
+
+  #success2 {
+    width: 35%;
+    height: 70%;
+    margin: auto;
+    border: 1px solid #fff;
+    background: url(../image/ebi.jpg) no-repeat center/cover;
+    box-shadow: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #dialog3 {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border: none;
+    position: relative;
+    top: 690%;
+  }
+
+  #success3 {
+    width: 35%;
+    height: 70%;
+    margin: auto;
+    border: 1px solid #fff;
+    background: url(../image/shouron.jpg) no-repeat center/cover;
+    box-shadow: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #dialog4 {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border: none;
+    position: relative;
+    top: 690%;
+  }
+
+  #success4 {
+    width: 35%;
+    height: 70%;
+    margin: auto;
+    border: 1px solid #fff;
+    background: url(../image/yahron.jpg) no-repeat center/cover;
+    box-shadow: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+
+  /* 癒しのスポット */
+
+  .healing {
+    padding: 0 5vw 0 5vw;
+  }
+
+  .healing h2 {
+    margin: 0;
+  }
+
+  /* タイトル */
+  .healing .only_kaisetu .only_text {
+    font-size: 1.4vw;
+    width: 30vw;
+    padding: 2vw 0.5vw;
+  }
+
+  .healing .only_kaisetu {
+    width: 30vw;
+    margin: 4vw 0 4vw 1.5vw;
+  }
+
+  .healing h4 {
+    font-size: 3.5vw;
+    font-weight: bold;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* スポット説明 */
+
+  .healing img {
+    width: 42vw;
+    height: 26vw;
+    margin: 0;
+
+  }
+
+  .healing .iyasi_bun {
+    font-size: 1.6vw;
+    width: 35vw;
+    height: 12vw;
+  }
+
+  .healing .hana {
+    display: flex;
+    align-items: center;
+    margin: 5vw 0 5vw 3vw;
+  }
+
+  .hana .iyasi_bun {
+    width: 28vw;
+    margin: 5vw 0 10vw 3vw;
+    /* margin-left: 3vw;
+    margin-bottom: 10vw; */
+  }
+
+  .healing .ike {
+    display: grid;
+    grid-template-rows: 26vw;
+    grid-template-columns: 35vw 40vw;
+    margin-right: 10vw;
+  }
+
+  .ike img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .ike .iyasi_bun {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 28vw;
+    margin: 7vw 0 0 4vw;
+  }
+
+  /* Footer */
+
+  .btn_box {
+    margin: 0 min(3.33vw, 40px) min(3.58vw, 43px);
+  }
+
+  .top_btn {
+    width: min(8.33vw, 100px);
+  }
+
+  .footer_inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: min(1.6vw, 20px);
+  }
+
+  .footer_flag {
+    width: min(5.33vw, 64px);
+    margin: min(1.6vw, 20px) 0 min(1.75vw, 21px);
+  }
+
+  .footer_list {
+    width: min(25vw, 300px);
+    margin: 0;
+  }
+
+  .footer_list li {
+    padding: 0 0 min(1vw, 12px);
+    font-size: min(1.6vw, 20px);
+    line-height: 1;
+  }
+
+  .list1 {
+    margin-bottom: min(1.6vw, 20px);
+  }
+
+  .footer_logo {
+    display: block;
+    width: min(20vw, 240px);
+    margin: 0 min(21.4vw, 257px) 0 min(13.3vw, 160px);
+  }
+
+  .footer_box {
+    display: flex;
+    align-items: end;
+  }
+
+  .sns_box {
+    display: flex;
+    align-items: center;
+    width: min(17vw, 203px);
+    height: min(4.58vw, 55px);
+    margin: 0 0 0 auto;
+  }
+
+  .facebook {
+    display: block;
+    width: min(4.58vw, 55px);
+  }
+
+  .instagram {
+    display: block;
+    width: min(3.75vw, 45px);
+    height: min(3.75vw, 45px);
+    margin: 0 min(2.5vw, 30px);
+  }
+
+  .x {
+    display: block;
+    width: min(3.58vw, 43px);
+    height: min(3.58vw, 43px);
+  }
+
+  .copyright {
+    padding: min(1.6vw, 20px) 0;
+    font-size: min(1vw, 12px);
+  }
+}
